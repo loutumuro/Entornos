@@ -20,11 +20,13 @@ package mipackage;
 public class Account {
 
 	// Atributos de la clase Account
+
 	private String titular;
 	private String ccc;
 	private double balance = 0;
 
 	// Constructor
+
 	public Account(String nom, String cuenta) {
 		this.setTitular(nom);
 		this.setCcc(cuenta);
@@ -52,15 +54,16 @@ public class Account {
 
 	public Account() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	// Método que me devuelve el saldo disponible en cada momento
+
 	public double disponible() {
 		return getBalance();
 	}
 
 	/* Método para ingresar cantidades en la cuenta. Modifica el saldo. */
+
 	public void ingresar(double cantidad) throws Exception {
 		if (cantidad < 0)
 			throw new Exception("No se puede ingresar una cantidad negativa");
@@ -68,6 +71,7 @@ public class Account {
 	}
 
 	/* Método para retirar cantidades de la cuenta. Modifica el saldo. */
+
 	public void retirar(double cantidad) throws Exception {
 		if (cantidad < 0)
 			throw new Exception("No se puede retirar una cantidad negativa.");
