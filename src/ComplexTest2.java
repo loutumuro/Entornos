@@ -15,7 +15,7 @@ class ComplexTest2 {
 		assertEquals(esperado, obtenido);
 		//fail("Not yet implemented");
 	}
-
+//Segundo comentario desde GitHub
 	@Test
 	@DisplayName(value = "Resta de (7+9j)-(6+5j)=(1+4j)")
 	void testRestar() {
