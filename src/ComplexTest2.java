@@ -4,7 +4,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 class ComplexTest2 {
-
+//Este es mi primer comentario desde GitHub
 	@Test
 	@DisplayName(value = "Suma de (2+3j)+(4+j)=(6+4j)")
 	void testSumar() {
@@ -28,7 +28,7 @@ class ComplexTest2 {
 	}
 
 	@Test
-	@DisplayName(value = "Multiplicamos números complejos (a, b) * (c, d) = (a*c – b*d, a*d + b*c)")
+	@DisplayName(value = "Multiplicamos nÃºmeros complejos (a, b) * (c, d) = (a*c â€“ b*d, a*d + b*c)")
 	void testMultiplicarComplex() {
 		Complex numA = new Complex(2,3);
 		Complex numB = new Complex(4,3);
@@ -50,7 +50,7 @@ class ComplexTest2 {
 	}
 
 	@Test
-	@DisplayName(value = "Dividimos (a, b) / (c, d) = ((a*c + b*d) / (c^2 + d^2) , (b*c – a*d) / (c^2 + d^2))")
+	@DisplayName(value = "Dividimos (a, b) / (c, d) = ((a*c + b*d) / (c^2 + d^2) , (b*c â€“ a*d) / (c^2 + d^2))")
 	void testDividir() {
 		Complex numA = new Complex(4,2);
 		Complex numB = new Complex(2,2);
@@ -61,7 +61,7 @@ class ComplexTest2 {
 	}
 	
 	@Test
-	@DisplayName(value = "Realiza esta operación: (2+j)*((3+4j)+(4-6j))")
+	@DisplayName(value = "Realiza esta operaciÃ³n: (2+j)*((3+4j)+(4-6j))")
 	void testSumaYMultiplicacion() {
 		Complex num1 = new Complex(3,4);
 		Complex num2 = new Complex(4,-6);
