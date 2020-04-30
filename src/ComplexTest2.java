@@ -26,7 +26,7 @@ class ComplexTest2 {
 		assertEquals(esperado, obtenido);
 		//fail("Not yet implemented");
 	}
-
+//Comentario desde GitHub
 	@Test
 	@DisplayName(value = "Multiplicamos números complejos (a, b) * (c, d) = (a*c – b*d, a*d + b*c)")
 	void testMultiplicarComplex() {
